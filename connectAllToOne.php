@@ -64,6 +64,8 @@
 		<label for="time">Time:</label>
 		<input type="time" id="time" name="time" required><br><br>
 
+        <a href="eventAll.php">Click here to find the event your looking for</a><br><br>
+
 		<label for="band_id">Band ID:</label>
 		<input type="number" id="band_id" name="band_id" min="1" max="999" required><br><br>
 
@@ -74,9 +76,6 @@
 			<option value="1">Yes</option>
 			<option value="0">No</option>
 		</select><br><br>
-
-		<label for="start">Start Time:</label>
-		<input type="time" id="start" name="start" required><br><br>
 
 		<label for="sets">Number of Sets:</label>
 		<input type="number" id="sets" name="sets" min="1" max="9" required><br><br>
