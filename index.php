@@ -1,42 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Admin Panel</title>
+	<title>Event Management System</title>
 	<style>
 		body {
 			font-family: Arial, sans-serif;
-			text-align: center;
+			background-color: #f2f2f2;
 			margin: 0;
 			padding: 0;
 		}
-
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 40px 20px;
+			box-sizing: border-box;
+			text-align: center;
+			background-color: white;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		}
 		h1 {
-			font-size: 3rem;
-			margin: 2rem 0;
-		}
-
-		.btn {
-			display: inline-block;
-			padding: 1.5rem 2rem;
-			margin: 1rem;
-			background-color: #007bff;
-			color: #fff;
-			text-transform: uppercase;
+			margin: 0;
+			font-size: 36px;
 			font-weight: bold;
-			border-radius: 5px;
-			transition: all 0.2s ease-in-out;
+			color: #333;
 		}
-
-		.btn:hover {
-			background-color: #0062cc;
+		p {
+			margin: 20px 0;
+			font-size: 18px;
+			color: #555;
+		}
+		.button {
+			display: inline-block;
+			background-color: #1E90FF;
+			color: white;
+			padding: 12px 30px;
+			border: none;
+			border-radius: 5px;
+			font-size: 18px;
+			font-weight: bold;
 			cursor: pointer;
+			margin: 10px;
+			text-decoration: none;
+		}
+		.button:hover {
+			background-color: #0066CC;
+		}
+		.button:active {
+			background-color: #004C99;
 		}
 	</style>
 </head>
 <body>
-	<h1>What do you want to do?</h1>
-	<a href="bandAdmin.php" class="btn">Create a Band</a>
-	<a href="eventAdmin.php" class="btn">Create an Event</a>
-	<a href="connectAllToOne.php" class="btn">Connect Band to Event</a>
+	<div class="container">
+		<h1>Event Management System</h1>
+		<p>What do you want to do?</p>
+		<a href="bandAdmin.php" class="button">Create a band</a>
+		<a href="eventAdmin.php" class="button">Create an event</a>
+		<a href="connectAllToOne.php" class="button">Connect band to event</a>
+		<br><br>
+		<p>View all:</p>
+		<a href="bandAll.php" class="button">Bands</a>
+		<a href="eventAll.php" class="button">Events</a>
+		<a href="seeAll.php" class="button">Entire event</a>
+	</div>
 </body>
 </html>
