@@ -26,7 +26,11 @@
     <a href="bandAll.php">View all bands</a><br><br>
     <a href="eventAll.php">View all events</a><br><br>
     
+    <a href="index.php">
     <h1>All Events</h1>
+    </a>
+
+
 	<form method="post" action="">
 		<label for="date">Select date:</label>
 		<input type="date" id="date" name="date">

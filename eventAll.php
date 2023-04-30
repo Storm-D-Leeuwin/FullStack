@@ -81,8 +81,10 @@
 <body>
 
 	<a href="connectAllToOne.php">View an entire event</a><br><br>
-	<a href="bandAll.php">View all bands</a>
+	<a href="bandAll.php">View all bands</a><br><br>
+	<a href="index.php">
 	<h1>All Events</h1>
+	</a>
 
 	<form method="post">
 		<label for="month">Select Month:</label>

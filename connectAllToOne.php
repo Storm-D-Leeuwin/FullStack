@@ -56,7 +56,10 @@
 </style>
 </head>
 <body>
+
+<a href="index.php">
 	<h1>Connect Bands to Events</h1>
+</a>
 	<form method="post" action="submit.php">
 		<label for="date">Date:</label>
 		<input type="date" id="date" name="date" required><br><br>

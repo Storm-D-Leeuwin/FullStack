@@ -16,7 +16,9 @@
 </head>
 <body>
    
+<a href="index.php">
     <h1>Add Band</h1>
+</a>
 
     <form id="add-band-form" method="post">
         <label for="bandnaam">Band Name:</label>

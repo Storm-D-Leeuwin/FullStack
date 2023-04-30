@@ -16,7 +16,9 @@
 </head>
 <body>
    
-    <h1>Create Event</h1>
+    <a href="index.php">
+        <h1>Create Event</h1>
+    </a>
 
     <form id="create-event-form" method="post">
     <label for="datum">Date:</label>

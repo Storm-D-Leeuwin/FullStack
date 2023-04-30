@@ -88,8 +88,10 @@
    
     <a href="connectAllToOne.php">View an entire event</a><br><br>
     <a href="eventAll.php">View all events</a><br><br>
-    
+
+    <a href="index.php">
     <h1>All Bands</h1>
+    </a>
     
     <!-- Add a search bar -->
     <div class="search-container">
