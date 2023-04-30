@@ -86,6 +86,9 @@
 </head>
 <body>
    
+    <a href="connectAllToOne.php">View an entire event</a><br><br>
+    <a href="eventAll.php">View all events</a><br><br>
+    
     <h1>All Bands</h1>
     
     <!-- Add a search bar -->
